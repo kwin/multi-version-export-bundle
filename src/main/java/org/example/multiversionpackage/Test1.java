@@ -4,7 +4,7 @@ import org.example.anotherpackage.Used;
 
 public class Test1 {
 
-    public String helloWorld() {
-        return new Used().use("Test1");
+    public Used helloWorld() {
+        return new Used();
     }
 }
